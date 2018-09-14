@@ -12,11 +12,11 @@
 <label for="code">社員番号</label><br/>
 <input type="text" name="code" value="${employee.code}"/>
 <br/><br/>
-<label for="code">氏名</label><br/>
+<label for="name">氏名</label><br/>
 <input type="text" name="name" value="${employee.name}"/>
 <br/><br/>
-<label for="code">パスワード</label><br/>
-<input type="password" value="${employee.password}"/>
+<label for="name">パスワード</label><br/>
+<input type="password" name="password"/>
 <br/><br/>
 
 <label for="admin_flag">権限</label><br/>
@@ -27,4 +27,4 @@
 <br/><br/>
 
 <input type="hidden" name="_token" value="${_token}"/>
-<botton type="submit">投稿</botton>
+<button type="submit">投稿</button>
